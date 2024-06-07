@@ -1,0 +1,17 @@
+{
+  "name": "simpan-file",
+  "version": "1.0.0",
+  "description": "Upload file melalui form",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "tw-build": "tailwindcss build src/tailwind.css -o public/style.css --watch"
+  },
+  "author": "AhmadMCer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "tailwindcss": "^3.4.4"
+  }
+}
